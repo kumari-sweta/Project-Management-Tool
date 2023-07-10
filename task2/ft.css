@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#todo-list {
+    background-color: rgb(207, 96, 4);
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+    background-color: rgb(95, 141, 141);
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #8b0ddf;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+li span {
+  flex-grow: 1;
+}
+
+li button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #b90a13;
+  border: none;
+  color: rgb(15, 15, 15);
+  border-radius: 4px;
+  cursor: pointer;
+}
